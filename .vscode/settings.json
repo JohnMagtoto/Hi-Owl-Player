@@ -1,0 +1,29 @@
+{
+  "editor.formatOnSave": true,
+  
+  "prettier.arrowParens": "avoid",
+
+  "prettier.bracketSpacing": true,
+
+  "prettier.disableLanguages": ["vue"],
+
+  "prettier.eslintIntegration": false,
+
+  "prettier.ignorePath": ".prettierignore",
+
+  "prettier.printWidth": 80,
+
+  "prettier.proseWrap": "preserve",
+
+  "prettier.semi": true,
+
+  "prettier.singleQuote": true,
+
+  "prettier.stylelintIntegration": false,
+
+  "prettier.tabWidth": 4,
+
+  "prettier.trailingComma": "es5",
+
+  "prettier.useTabs": true
+}

@@ -1,6 +1,26 @@
-<h1>{{Title}}</h1>
-<h2>{{playTimeStamp}}</h2>
+<div id="app-container" class="container">
 
-<a (click)="play()"><i class="fas fa-play-circle"></i> Play</a>
-<a (click)="pause()"><i class="far fa-pause-circle"></i> Pause</a>
-<a (click)="stop()"><i class="far fa-stop-circle"></i> Stop</a>
+    <div id="header-container" class="container">
+        <h1>{{title}}</h1>
+    </div>
+
+    <div id="main-container" class="container">
+        <div id="duration-container" class="container">
+            <h2>{{playTimeStamp}}</h2>
+        </div>
+
+        <div id="controls-container" class="container">
+
+            <a (click)="play()">
+                <i class="fas fa-play"></i>
+            </a>
+            <a (click)="pause()">
+                <i class="fas fa-pause"></i>
+            </a>
+            <a (click)="stop()">
+                <i class="fas fa-stop"></i>
+            </a>
+
+        </div>
+    </div>
+</div>
